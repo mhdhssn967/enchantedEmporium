@@ -1,0 +1,19 @@
+*{
+  margin: 0px;
+  font-family: "Ubuntu", serif;
+}
+
+@keyframes fadeSlideIn {
+  0% {
+      opacity: 0;
+      transform: translateX(-150px) scale(0.1);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0); 
+  }
+}
+
+.fade-in {
+  animation: fadeSlideIn 1s ease forwards;
+}
